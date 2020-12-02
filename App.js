@@ -35,7 +35,7 @@ const App: () => React$Node = () => {
           <Header />
           {global.HermesInternal == null ? null : (
             <View style={styles.engine}>
-              <Text style={styles.footer}>Engine: Hermes12</Text>
+              <Text style={styles.footer}>Engine: Hermes 12</Text>
             </View>
           )}
           <View style={styles.body}>
@@ -43,7 +43,7 @@ const App: () => React$Node = () => {
               <Text style={styles.sectionTitle}>Step One</Text>
               <Text style={styles.sectionDescription}>
                 Edit <Text style={styles.highlight}>App.js</Text> to change this
-                screen and then come back to see your edits.
+                screen and then come up to see your edits.
               </Text>
             </View>
             <View style={styles.sectionContainer}>

@@ -1,3 +1,3 @@
-import { message, danger } from "danger";
+import { message, danger, warn, fail, markdown } from "danger";
 const modifiedMD = danger.git.modified_files.join("_ ");
-message("Changed Files in the PR: \n - " + modifiedMD);
+warn("Changed Files in the PR: \n - " + modifiedMD);
